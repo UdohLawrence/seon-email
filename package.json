@@ -1,0 +1,17 @@
+{
+  "name": "seon-email",
+  "version": "1.0.0",
+  "description": "Email template designs for major milestones in the user journey through the SEON Sports ecommerce store",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i resources/base.css -o ./assets/css/main.css",
+    "watch": "tailwindcss -i resources/base.css -o ./assets/css/main.css --watch"
+  },
+  "author": "UdohLawrence",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16"
+  }
+}
