@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+  </head>
+  <body class="bg-[#eee]">
+    <header class="flex items-center justify-center px-5 w-full">
+      <img
+        src="/assets/images/seon-logo.png"
+        alt="SEON Logo"
+        class="w-[108px] h-[56px]"
+      />
+    </header>
+    <main class="max-w-2xl mx-auto w-full flex flex-col">
+      <section class="bg-white px-5 flex flex-col gap-3 w-full rounded-sm">
+        <div class="flex flex-col gap-4 text-sm">
+          <h1 class="text-3xl font-semibold text-gray-900 mt-4">
+            Now packing your order 🎉
+          </h1>
+          <p>Hi {user.firstName},</p>
+          <p>
+            Thank you for your order. We’re excited to get your new SÉON gear on
+            its way to you. As we pack your items from the cart to the dispatch
+            box (or lorry 😁), below are a few details to cross-check:!
+          </p>
+          <ul class="flex flex-col gap-1 list-disc ml-8">
+            <li>
+              <span class="font-semibold">Order Number:</span> {order.number}
+            </li>
+            <li><span class="font-semibold">Order Date:</span> {order.date}</li>
+            <li>
+              <span class="font-semibold"
+                >Estimated delivery time and date:</span
+              >
+              {order.delivery}
+            </li>
+            <li>
+              <span class="font-semibold">Delivery address:</span>
+              {order.deliveryAddress}
+            </li>
+          </ul>
+          <div class="bg-[#fafafa] w-full flex flex-col gap-3 p-4">
+            <p class="font-semibold">2 items ordered</p>
+            <div class="flex items-center justify-start gap-2 py-3 border-b border-b-gray-200">
+              <img src="/assets/images/Image.png" alt="order image" class="object-cover">
+              <div class="flex flex-col justify-between gap-2.5">
+                <h3 class="font-semibold text-base">Zenith Bank FC 2025 Jersey</h3>
+                <p class="text-gray-500 text-xs">Customized (+15,000 NGN)</p>
+                <p class="text-base">17,300 NGN</p>
+                <p class="flex gap-2.5 items-center justify-start"><span class="text-xs text-gray-500">Size</span> 2XL <span class="text-xs text-gray-500">Color</span> Black <span class="text-xs text-gray-500">Quantity</span> 2</p>
+              </div>
+            </div>
+            <div class="flex items-center justify-start gap-2 py-3">
+              <img src="/assets/images/Image.png" alt="order image" class="object-cover">
+              <div class="flex flex-col justify-between gap-2.5">
+                <h3 class="font-semibold text-base">Zenith Bank FC 2025 Jersey</h3>
+                <p class="text-gray-500 text-xs">Customized (+15,000 NGN)</p>
+                <p class="text-base">17,300 NGN</p>
+                <p class="flex gap-2.5 items-center justify-start"><span class="text-xs text-gray-500">Size</span> 2XL <span class="text-xs text-gray-500">Color</span> Black <span class="text-xs text-gray-500">Quantity</span> 2</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="bg-gray-900 text-white px-3 py-2 rounded-md w-max my-4"
+          >
+            Track your order
+          </button>
+          <p>
+            You can also check the status of your order anytime by logging into
+            your account. Thank you for choosing SÉON and for supporting premium
+            African sportswear. We hope you love your new gear when it lands!
+          </p>
+          <p class="flex flex-col mb-4 gap-0">
+            <span>Warm hugs,</span>
+            <span>The SÉON Team</span>
+            <a href="https://www.seonsports.com">https://www.seonsports.com</a>
+            <span>Greatness begins in you</span>
+          </p>
+        </div>
+      </section>
+      <footer class="bg-gray-900 text-white px-8 py-6">
+        <section class="max-w-md mx-auto w-full flex flex-col gap-6">
+          <div>
+            <p class="text-center text-sm">
+              This email was sent to you because of your account with SÉON. If
+              you wish to no longer receive emails from us you can
+              <a href="#" class="underline">unsubscribe</a>.
+            </p>
+          </div>
+          <div class="flex justify-between">
+            <span>Help Center</span>
+            <span>Terms of use</span>
+            <span>Privacy Policy</span>
+          </div>
+          <div class="flex gap-3 items-center justify-center">
+            <img src="/assets/images/twitter-fill.svg" alt="Twitter" />
+            <img src="/assets/images/instagram-fill.svg" alt="instagram" />
+            <img src="/assets/images/facebook-fill.svg" alt="facebook" />
+            <img src="/assets/images/linkedin-fill.svg" alt="linkedin" />
+          </div>
+        </section>
+      </footer>
+    </main>
+  </body>
+</html>
